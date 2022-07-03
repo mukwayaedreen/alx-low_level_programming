@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-int ch;
+
+ char ch = 'a';
 	
-for (ch = 97; ch <= 122; ch++)
+while(ch <= 'z')
 {
 putchar(ch);
+ch++;
 }
-putchar(10);
-/* this is an ascii code for new line */
-	
+
 return (0);
 }
  
