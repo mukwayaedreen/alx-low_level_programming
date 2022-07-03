@@ -9,18 +9,16 @@
 int main(void)
 {
 
-char c = 'a';
-char x = 'A';
-
-while (c <= 'z')
+intt ch;
+for (ch = 'a'; ch <= 'z'; ch++)
 {
 putchar(c);
-c++;
 }
-while (x <= 'Z')
+for (ch = 'A'; ch <= 'Z'; ch++)
 {
 putchar(x);
 }
 putchar('\n');
 
 return (0);
+}
