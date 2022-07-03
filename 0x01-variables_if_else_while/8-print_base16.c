@@ -9,7 +9,7 @@ int main(void)
 {
 
 int num;
-char letter;
+char leta;
 
 for (num = 0; num < 10; num++)
 
