@@ -5,6 +5,7 @@
 * Description : using _putchar to print out _putchar
  * Returns: Always 0
  */
+
 int main(void)
 {
 	_putchar('_');
