@@ -3,10 +3,10 @@
 /**
  * main - prints putchar
 * Description : using _putchar to print out _putchar
- * Returns: Always 0
+ * Returns: Always 0 (success)
  */
 
-int main(int c)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
