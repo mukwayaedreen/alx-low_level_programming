@@ -2,7 +2,8 @@
 
 /**
 * _islower -> returns 1 if the char is lowercase and 0 otherwise
-* Description: check if c is lowercase
+* @c: a character to be checked whether its lowercase ot uppercase
+ * Description: check if c is lowercase
  *Return: Always 0 (success)
 */
 
