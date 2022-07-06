@@ -6,7 +6,7 @@
  *Return:Absolute value
  */
 
-int _abs(int c)
+int _abs(int n)
 {
 	if (n < 0)
 		n = -n;
