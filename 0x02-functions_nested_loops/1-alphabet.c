@@ -5,9 +5,15 @@
  * Return: Always 0 (success)
  */
 
-int main(void)
+int print_alphabet(void)
 {
-	print_alphabet();
+	int j;
+	
+	for (j = 'a'; j <= 'z'; j++)
+	{
+		_putchar(j);
+	}
+	_putchar(j);
 
 	return (0);
 }
