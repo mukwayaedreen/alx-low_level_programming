@@ -2,7 +2,7 @@
 
 /**
  * _abs -> computes the absolute value of a number
- *@c: parameter to hold the absolute value
+ *@n: parameter to hold the absolute value
  *Return:Absolute value
  */
 
