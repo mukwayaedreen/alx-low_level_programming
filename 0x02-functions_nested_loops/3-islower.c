@@ -2,7 +2,8 @@
 
 /**
 * _islower -> returns 1 if the char is lowercase and 0 otherwise
-*Return: Always 0 (success)
+* Description: check if c is lowercase
+ *Return: Always 0 (success)
 */
 
 int _islower(int c)

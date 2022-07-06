@@ -2,6 +2,7 @@
 
 /**
  * print_alphabet_x10 -> prints alphabets 10 times
+ * @c: a character to be cheched
  * Return: Always 0 (success)
  */
 
