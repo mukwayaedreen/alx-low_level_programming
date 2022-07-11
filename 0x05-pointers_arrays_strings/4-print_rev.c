@@ -10,5 +10,8 @@
 
 void print_rev(char *s)
 {
-	strrev(s);
-}
+
+	int length, c;
+	char *begin, *end, temp;
+
+
