@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <string.h>
 
 /**
 * puts_half - prints the last half of the string
@@ -10,25 +8,21 @@
 
 void puts_half(char *str)
 {
-	int a, n;
+	int a = 0;
+	int n;
+	int isEven;
 
-	n = strlen(str);
+	while (str[len])
+		len++;
 
-	if (n % 2 == 0)
+	isEven = len % 2 == 0;
+	n = (isEven ? len : len - 1) / 2;
+	n += isEven ? 0 : 1;
+
+	while (n < len)
 	{
-		for (a = n / 2; a < n; a++)
-		{
-			putchar(str[a]);
-		}
+		_putchar(str[n]);
+		n++;
 	}
-	else
-	{
-		n = (strlen(str) - 1) / 2;
-
-		for (a = n / 2; a < n; a++)
-		{
-			putchar(str[a]);
-		}
-	}
-	putchar('\n');
+	_putchar('\n');
 }
