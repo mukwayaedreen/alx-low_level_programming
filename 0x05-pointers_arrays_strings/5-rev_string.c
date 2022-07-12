@@ -8,10 +8,22 @@
 
 void rev_string(char *s)
 {
-	if (*s)
+	int len = 0;
+	int i, j;
+	char temp;
+
+	while (s[len])
+		len++;
+
+	/* swap each character */
+	i = len;
+
+	while (--i >= len / 2)
 	{
-		reverse(s + 1);
-		_putchar(*s);
+		j = len - i - 1;
+		temp = s[j];
+		s[j] = s[i];
+		s[i] = temp;
 	}
-	_putchar('\n');
 }
+	}
