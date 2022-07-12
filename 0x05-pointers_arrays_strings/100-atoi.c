@@ -20,7 +20,7 @@ int _atoi(char *s)
 		c = s[i];
 
 		if (c == '-')
-			sig *= -1;
+			sign *= -1;
 
 		else if (c >= '0' && c <= '9')
 		{
@@ -32,7 +32,7 @@ int _atoi(char *s)
 			if (s[i + 1] < '0' || s[i + 1] > '9')
 				break;
 		}
-		i++
+		i++;
 	}
 	if (sign < 0)
 		value *= -1;
